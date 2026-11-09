@@ -1,0 +1,33 @@
+{
+  "tasks": 10,
+  "llm": "simulated deterministic policy (no model weights)",
+  "steps_recorded": 72,
+  "full_replay_identical": "10/10",
+  "rerun_from_every_step_identical": "72/72",
+  "v2_rerun_changed_answers": [
+    {
+      "task": "What is the ratio of nile_length_km and amazon_length_km?",
+      "before": "1.0390625",
+      "after": "1.039",
+      "reused_steps": 4
+    },
+    {
+      "task": "What is the ratio of tokyo_population and paris_population?",
+      "before": "6.6392409578389175",
+      "after": "6.639",
+      "reused_steps": 4
+    },
+    {
+      "task": "What is the ratio of lagos_population and chicago_population?",
+      "before": "5.776276276276277",
+      "after": "5.776",
+      "reused_steps": 4
+    }
+  ],
+  "divergence_detected_on_edited_tasks": "3/3 (task text sum->product, replayed against original cassette)",
+  "mean_ms_per_run_bare": 0.089,
+  "mean_ms_per_run_recorded": 6.421,
+  "mean_steps_per_run": 7.2,
+  "db_bytes_after_eval": 2269184,
+  "db_runs_after_eval": 305
+}
